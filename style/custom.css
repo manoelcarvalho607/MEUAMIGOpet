@@ -1,0 +1,70 @@
+
+#header {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(223, 106, 11, 0.774);
+}
+
+
+.nav-link  {
+    color: black;
+}
+
+.card-body {
+    height: 214px;
+    
+} 
+
+.card-text {
+    text-align: center;
+}
+
+.card-title , p {
+    color: rgb(212, 4, 4);
+}
+
+#cont {
+    color: black;
+
+}
+.card {
+    margin: 5px;
+}
+section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+}
+
+.modal-body {
+    border-top: 1px solid #dee2e6;
+}
+
+
+
+#sobre-1 {
+    background: rgba(255, 185, 35, 0.966);
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+
+}
+
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+
+#contato {
+    background-color: rgba(216, 118, 37, 0.267);
+}
+
+@media (min-width: 980px) {
+    .card {
+        width: 32%; 
+        float: left; 
+        margin: 5px;
+        
+    }  
+}
