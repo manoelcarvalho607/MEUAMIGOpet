@@ -1,10 +1,15 @@
 
+
+
 #header {
-    margin-top: 20px;
-    padding: 20px;
+    
+    padding: 40px 20px 40px 20px;
     background: rgba(223, 106, 11, 0.774);
 }
-
+#sobre {
+    background: rgba(243, 183, 52, 0.87) ;
+    padding-bottom: 30px;
+}
 
 .nav-link  {
     color: black;
@@ -43,7 +48,7 @@ section {
 
 
 #sobre-1 {
-    background: rgba(255, 185, 35, 0.966);
+   margin-top: 30px;
     margin-bottom: 0px;
     padding-bottom: 10px;
 
