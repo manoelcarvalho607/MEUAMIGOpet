@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/style-menu.css">
     <title>MEUAMIGOpet</title>
 </head>
 <body>
@@ -18,8 +19,11 @@
                     <h1>MEUAMIGOpet</h1>
 
                 </div>
-                <div class="col">
-                    <ul class="nav justify-content-end"> 
+                <div class="col" id="nav">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true"  aria-controls="menu"aria-expanded="false"> Menu <span id="hamburger" ></span>
+                    </button>
+
+                    <ul class="nav justify-content-end" id="menu" role="menu"> 
                         <li class="nav-item"> <a class="nav-link active" href=""><strong>Home</strong> </a></li>
                         <li class="nav-item"> <a class="nav-link" href="#sobre"> <strong>Sobre Nós</strong> </a></li>
                         <li class="nav-item"> <a class="nav-link" href="#produtos"> <strong>Produtos</strong> </a></li>
@@ -602,6 +606,7 @@
 
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/botaomenu.js"></script>
     
 </body>
 </html>
