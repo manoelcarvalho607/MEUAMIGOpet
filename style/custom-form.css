@@ -2,3 +2,9 @@ textarea.form-control {
     width: 100% !important;
 }
 
+@media (max-width: 870px) {
+    .form-control {
+       font-size: 0.6rem ;
+        
+    }  
+}
