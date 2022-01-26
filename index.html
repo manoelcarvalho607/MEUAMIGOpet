@@ -28,7 +28,7 @@
                         <li class="nav-item"> <a class="nav-link" href="#sobre"> <strong>Sobre Nós</strong> </a></li>
                         <li class="nav-item"> <a class="nav-link" href="#produtos"> <strong>Produtos</strong> </a></li>
                         <li class="nav-item"> <a class="nav-link" href="#contato"> <strong>Contato</strong> </a></li>
- 
+                        <li class="nav-item"> <a class="nav-link" href="./cadastro.html"> <strong>Cadastro</strong> </a></li>
                      </ul>
                 </div>
             </div>
@@ -36,20 +36,62 @@
     </header>
 
     <section id="sobre">
-        <div class="container">
-            <div class='row'>
-                <div class="col-md-12 col-sm-12 " >
-                    <img src="./imagens/amigo-pet.jpg" alt="cachorro cama" class="img-fluid">
-                    <h2 id="sobre-1">Sobre Nós</h2>
-                    <p id="sobre-1" >
-                        "Só quem tem um animal de estimação sabe que adquirir produtos de boa qualidade é importante para sua longevidade - e felicidade! Além disso, ter a praticidade de fazer sua compra online, com os melhores preços, e receber em casa conta muito! A MEUAMIGOpet veio para atender essas demandas, com um atendimento diferenciado - do jeitinho que você sempre quis.
-
-                        Contamos com uma variedade de produtos selecionados por uma equipe apaixonada por pets. Somos um pet shop online completo, com as melhores marcas e os produtos mais recomendados do mundo pet. Entregamos em todo o Brasil. Veja algumas opiniões dos nossos clientes."
-                    </p>
-                  
+       
+           
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ratio ratio-21x9">
+                        <img src="imagens/amigo-pet.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                        <a href="#produtos" class="btn btn-light stretched-link">Produtos</a> 
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/amigocao.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5 >Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                        <a href="#produtos" class="btn btn-light stretched-link">Produtos</a> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/gato-pet.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5 >Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                        <a href="#produtos" class="btn btn-light stretched-link">Produtos </a> 
+                    </div>
+                </div>
+                
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+        <h2 id="sobre-1">Sobre Nós</h2>
+        <p id="sobre-1" >
+            "Só quem tem um animal de estimação sabe que adquirir produtos de boa qualidade é importante para sua longevidade - e felicidade! Além disso, ter a praticidade de fazer sua compra online, com os melhores preços, e receber em casa conta muito! A MEUAMIGOpet veio para atender essas demandas, com um atendimento diferenciado - do jeitinho que você sempre quis.
+
+            Contamos com uma variedade de produtos selecionados por uma equipe apaixonada por pets. Somos um pet shop online completo, com as melhores marcas e os produtos mais recomendados do mundo pet. Entregamos em todo o Brasil. Veja algumas opiniões dos nossos clientes."
+        </p>
+    </div>
+                   
+                  
+                
+        
+        
     </section>
 
     <section id="produtos">
@@ -150,23 +192,39 @@
                 <div class="col-md-6 col-sm-12">
                     <h2>Contato</h2>
                     <p id="cont">Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p> 
+                    <div class="container"  id="rd">
+                        <div class="row">
+                            <div class="col-md-5" id="rd1">
+                                <p>Nos siga nas redes sociais:</p>
+                            </div>
+                            <div class="col-md-2" id="rd3">
+                               <a href="#"> <i id="rd2" href="#" class="fab fa-facebook link-primary" aria-hidden="true"></i></a>
+                               <a href="#"><i href="#" class="fab fa-instagram link-danger"></i></a> 
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
                 </div>
+               
+    
+    
                 <div class="col-md-6 col-sm-12">
                     <form class="form">
 
                         <div class="input-group">
-                              <input class="form-control" type="text" type="text" name="nome" placeholder="digite seu nome">
+                              <input class="form-control" type="text" type="text" name="nome" placeholder="digite seu nome" required>
                         </div>
 
                         <div class="input-group">
-                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email" required>
                         </div>
 
                         <div class="input-group">
                             <textarea class="form-control" name=""   rows="5"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-warning">Solicitar Cotação</button>
+                        <button  type="submit" class="btn btn-warning">Solicitar Cotação</button>
                         <div></div>
                     </form>
                 </div>
@@ -607,6 +665,14 @@
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/botaomenu.js"></script>
+    <script src="https://kit.fontawesome.com/8c725a2565.js" crossorigin="anonymous"></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleControls')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 4000
+        })
+    </script>
+    
     
 </body>
 </html>

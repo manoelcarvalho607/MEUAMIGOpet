@@ -33,7 +33,7 @@
     #menu a {
         padding: 1rem 0;
         margin:  0 1rem;
-        color: #080606;
+        color: #f31a1a;
     }
 
     #hamburger{
@@ -65,5 +65,14 @@
         transform: rotate(-135deg);
         top: -7px;
     }
+
   
+  .carousel-caption, h5 {
+      color:transparent
+      }
+
+ .btn-light  {
+        display:none;
+}
+
 }

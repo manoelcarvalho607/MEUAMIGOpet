@@ -65,6 +65,26 @@ textarea {
     background-color: rgba(216, 118, 37, 0.267);
 }
 
+#rd {
+    padding: 0;
+}
+
+#rd1 {
+    padding: 0 0 0 12px;
+}
+
+#rd2 {
+    padding-right: 8px;
+    
+}
+
+#rd3 {
+    padding: 0 0 0 12px;
+    margin-bottom: 12px;
+
+}
+
+
 @media (min-width: 980px) {
     .card {
         width: 32%; 
