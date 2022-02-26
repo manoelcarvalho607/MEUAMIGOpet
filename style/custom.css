@@ -15,10 +15,14 @@
     color: black;
 }
 
+
+
 .card-body {
     height: 214px;
     
 } 
+
+
 
 .card-text {
     text-align: center;
@@ -70,16 +74,22 @@ textarea {
 }
 
 #rd1 {
-    padding: 0 0 0 12px;
+    padding: 0 0 0 5px;
 }
 
 #rd2 {
-    padding-right: 8px;
     
+    margin-right: 10px;
+    font-size: 30px;
 }
 
+#rd4 {
+    font-size: 30px;
+}
+
+
 #rd3 {
-    padding: 0 0 0 12px;
+    padding: 0 0 0 5px;
     margin-bottom: 12px;
 
 }

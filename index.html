@@ -24,14 +24,17 @@
                 <div class="col-md-12 col-sm-4" id="nav">
                     <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true"  aria-controls="menu"aria-expanded="false"> Menu <span id="hamburger" ></span>
                     </button>
-                    
-                        <ul class="nav justify-content-end" id="menu" role="menu"> 
-                            <li class="nav-item"> <a class="nav-link active" href=""><strong>Home</strong> </a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#sobre"> <strong>Sobre Nós</strong> </a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#produtos"> <strong>Produtos</strong> </a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#contato"> <strong>Contato</strong> </a></li>
-                            <li class="nav-item"> <a class="nav-link" href="./cadastro.html"> <strong>Cadastro</strong> </a></li>
-                         </ul>
+                      
+                            <ul class="nav justify-content-end" id="menu" role="menu"> 
+                                <li class="nav-item" id="home"> <a class="nav-link active" href=""><strong>Home</strong> </a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#sobre"> <strong>Sobre Nós</strong> </a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#produtos"> <strong>Produtos</strong> </a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#contato"> <strong>Contato</strong> </a></li>
+                                <li class="nav-item"> <a class="nav-link" href="./cadastro.html"> <strong>Cadastro</strong> </a></li>
+                             </ul>
+
+                       
+                        
 
                 
                     
@@ -41,522 +44,489 @@
             </div>
         </div>
     </header>
-
-    <section id="sobre">
-       
-           
-    <div class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="ratio ratio-21x9">
-                        <img src="imagens/amigo-pet.jpg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                        <h5>Conheça nossa linha de produtos para seu melhor amigo!</h5>
-                        <a href="#produtos" class="btn btn-light stretched-link">Produtos</a> 
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="ratio ratio-21x9">
-                        <img src="./imagens/amigocao.jpg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                        <h5 >Conheça nossa linha de produtos para seu melhor amigo!</h5>
-                        <a href="#produtos" class="btn btn-light stretched-link">Produtos</a> 
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="ratio ratio-21x9">
-                        <img src="./imagens/gato-pet.jpg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                        <h5 >Conheça nossa linha de produtos para seu melhor amigo!</h5>
-                        <a href="#produtos" class="btn btn-light stretched-link">Produtos </a> 
-                    </div>
-                </div>
-                
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <h2 id="sobre-1">Sobre Nós</h2>
-        <p id="sobre-1" >
-            "Só quem tem um animal de estimação sabe que adquirir produtos de boa qualidade é importante para sua longevidade - e felicidade! Além disso, ter a praticidade de fazer sua compra online, com os melhores preços, e receber em casa conta muito! A MEUAMIGOpet veio para atender essas demandas, com um atendimento diferenciado - do jeitinho que você sempre quis.
-
-            Contamos com uma variedade de produtos selecionados por uma equipe apaixonada por pets. Somos um pet shop online completo, com as melhores marcas e os produtos mais recomendados do mundo pet. Entregamos em todo o Brasil. Veja algumas opiniões dos nossos clientes."
-        </p>
-    </div>
-                   
-                  
-                
+    
+        <section id="sobre">
         
-        
-    </section>
-
-    <section id="produtos">
-        
-        <div class="container">
-            <div class="row">
-                <div class="col " >
-
-                    <h2>Produtos</h2>
-
-                    <div class="card">
-                        <img src="./imagens/cama_pet.jpg" alt="cama" class="img-fluid">
-                        <div class="card-body">
-                            
-                            <div class="card-text">
-                                
-                                <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-1"><h5 class="card-title">Cama de Cachorro Impermeável </h5>
-                                <p>A Cama de Cachorro Impermeável tem design moderno e aconchegante. </p></a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                   
-                    <div class="card">
-                        <img src="./imagens/cat-4.jpg" alt="brinquedo" class="img-fluid">
-                        <div class="card-body">
-                            <div class="card-text">
-                               <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-2" > <h5 class="card-title">Brinquedo Mordedor</h5>
-                                    <p>- Resistente, divertido e flexível;</p> </a>
-                            </div>
-                                
             
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-21x9">
+                            <img src="imagens/amigo-pet.jpg" class="d-block w-100" alt="">
                         </div>
+                        <div class="carousel-caption">
+                            <h5>Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                            <a href="#produtos" class="btn btn-light stretched-link">Produtos</a> 
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/amigocao.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h5 >Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                            <a href="#produtos" class="btn btn-light stretched-link">Produtos</a> 
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/gato-pet.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h5 >Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                            <a href="#produtos" class="btn btn-light stretched-link">Produtos </a> 
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <h2 id="sobre-1">Sobre Nós</h2>
+            <p id="sobre-1" >
+                "Só quem tem um animal de estimação sabe que adquirir produtos de boa qualidade é importante para sua longevidade - e felicidade! Além disso, ter a praticidade de fazer sua compra online, com os melhores preços, e receber em casa conta muito! A MEUAMIGOpet veio para atender essas demandas, com um atendimento diferenciado - do jeitinho que você sempre quis.
+
+                Contamos com uma variedade de produtos selecionados por uma equipe apaixonada por pets. Somos um pet shop online completo, com as melhores marcas e os produtos mais recomendados do mundo pet. Entregamos em todo o Brasil. Veja algumas opiniões dos nossos clientes."
+            </p>
+        </div>
+                    
+                    
+                    
+            
+            
+        </section>
+
+        <section id="produtos">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col " >
+
+                        <h2>Produtos</h2>
+
+                        <div class="card">
+                            <img src="./imagens/cama_pet.jpg" alt="cama" class="img-fluid">
+                            <div class="card-body">
+                                
+                                <div class="card-text">
+                                    
+                                    <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-1"><h5 class="card-title">Cama de Cachorro Impermeável </h5>
+                                    <p>A Cama de Cachorro Impermeável tem design moderno e aconchegante. </p></a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    
+                        <div class="card">
+                            <img src="./imagens/cat-4.jpg" alt="brinquedo" class="img-fluid">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-2" > <h5 class="card-title">Brinquedo Mordedor</h5>
+                                        <p>- Resistente, divertido e flexível;</p> </a>
+                                </div>
+                                    
+                
+                            </div>
+                            
+                        </div>
+
+                            
+                        <div class="card">
+                            <img src="./imagens/coleira_pet.jpg" alt="coleira" class="img-fluid">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-3"
+                                    > <h5 class="card-title">Coleira</h5>
+                                    <p>A nossa nova Coleira é focada para pets de todas as idades de pequeno a grande porte. </p></a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagens/racao-pet-gato.jpg" alt="pet" class="img-fluid">
+                            <div class="card-body">
+                                
+                                <div class="card-text">
+                                    <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-4" ><h5 class="card-title">Ração (várias marcas)</h5>
+                                        <p>Ração Seca Pedigree Nutrição Essencial Carne para Cães Adultos Raças Médias e Grandes</p></a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    
+                        <div class="card">
+                            <img src="./imagens/roupa1-pet.jpg" alt="pet" class="img-fluid">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-5"> <h5 class="card-title">Roupas</h5>
+                                    <p>-Modelo veste bem em todos os portes; Seu pet mais quentinho, protegido e estiloso;</p></a>
+                                </div>
+                
+                            </div>
+                        </div>
+
+                            
+                        <div class="card">
+                            <img src="./imagens/shapooo_pet.png" alt="filhotes" class="img-fluid">
+                            <div class="card-body">
+                                
+                                <div class="card-text">
+                                    <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-6"><h5 class="card-title">Shampoo pet</h5>
+                                    <p>- Embalagem econômica; Devolve o brilho e a maciez dos pelos.</p> </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>Contato</h2>
+                        <p id="cont">Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p> 
+                        <div class="container"  id="rd">
+                            <div class="row">
+                                <div class="col-md-4" id="rd1">
+                                    <p>Nos siga nas redes sociais:</p>
+                                </div>
+                                <div class="col-md-2" id="rd3">
+                                <a href="#"> <i id="rd2" href="#"  class="fab fa-facebook link-primary" aria-hidden="true"></i></a>
+                                <a href="#"><i href="#" id="rd4" class="fab fa-instagram link-danger"></i></a> 
+                                </div>
+                            </div>
+                        </div>
+                    
                         
                     </div>
+                
+        
+        
+                    <div class="col-md-6 col-sm-12">
+                        <form class="form">
 
-                          
-                    <div class="card">
-                        <img src="./imagens/coleira_pet.jpg" alt="coleira" class="img-fluid">
-                        <div class="card-body">
-                            <div class="card-text">
-                                <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-3"
-                                > <h5 class="card-title">Coleira</h5>
-                                <p>A nossa nova Coleira é focada para pets de todas as idades de pequeno a grande porte. </p></a>
+                            <div class="input-group">
+                                <input class="form-control" type="text" type="text" name="nome" placeholder="digite seu nome" required>
                             </div>
 
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="./imagens/racao-pet-gato.jpg" alt="pet" class="img-fluid">
-                        <div class="card-body">
-                            
-                            <div class="card-text">
-                                <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-4" ><h5 class="card-title">Ração (várias marcas)</h5>
-                                    <p>Ração Seca Pedigree Nutrição Essencial Carne para Cães Adultos Raças Médias e Grandes</p></a>
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="email" placeholder="digite seu email" required>
                             </div>
 
-                        </div>
-                    </div>
-
-                   
-                    <div class="card">
-                        <img src="./imagens/roupa1-pet.jpg" alt="pet" class="img-fluid">
-                        <div class="card-body">
-                            <div class="card-text">
-                                <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-5"> <h5 class="card-title">Roupas</h5>
-                                <p>-Modelo veste bem em todos os portes; Seu pet mais quentinho, protegido e estiloso;</p></a>
-                            </div>
-            
-                        </div>
-                    </div>
-
-                          
-                    <div class="card">
-                        <img src="./imagens/shapooo_pet.png" alt="filhotes" class="img-fluid">
-                        <div class="card-body">
-                            
-                            <div class="card-text">
-                                <a class="btn" data-bs-toggle="modal" data-bs-target="#modal-6"><h5 class="card-title">Shampoo pet</h5>
-                                <p>- Embalagem econômica; Devolve o brilho e a maciez dos pelos.</p> </a>
+                            <div class="input-group">
+                                <textarea class="form-control" name=""   rows="5"></textarea>
                             </div>
 
-                        </div>
+                            <button  type="submit" class="btn btn-warning">Solicitar Cotação</button>
+                            <div></div>
+                        </form>
                     </div>
-
-
                 </div>
             </div>
-        </div>
-   
-    </section>
 
-    <section id="contato">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h2>Contato</h2>
-                    <p id="cont">Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p> 
-                    <div class="container"  id="rd">
-                        <div class="row">
-                            <div class="col-md-5" id="rd1">
-                                <p>Nos siga nas redes sociais:</p>
-                            </div>
-                            <div class="col-md-2" id="rd3">
-                               <a href="#"> <i id="rd2" href="#" class="fab fa-facebook link-primary" aria-hidden="true"></i></a>
-                               <a href="#"><i href="#" class="fab fa-instagram link-danger"></i></a> 
-                            </div>
-                        </div>
-                    </div>
-                   
-                    
-                </div>
-               
+        </section>
+
     
-    
-                <div class="col-md-6 col-sm-12">
-                    <form class="form">
-
-                        <div class="input-group">
-                              <input class="form-control" type="text" type="text" name="nome" placeholder="digite seu nome" required>
-                        </div>
-
-                        <div class="input-group">
-                            <input class="form-control" type="text" name="email" placeholder="digite seu email" required>
-                        </div>
-
-                        <div class="input-group">
-                            <textarea class="form-control" name=""   rows="5"></textarea>
-                        </div>
-
-                        <button  type="submit" class="btn btn-warning">Solicitar Cotação</button>
-                        <div></div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-  
-    <div class="modal fade" id="modal-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    
-                    <h5 class="modal-title">Cama</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                    <div class="modal-body">
-                        <h6>Confira os tamanhos e os preços</h6>
-
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>P</td>
-                                    <td>R$ 50.00</td>
-                                </tr>
-                                <tr>
-                                    <td>M</td>
-                                    <td>R$ 80.00</td>
-                                </tr>
-                                <tr>
-                                    <td>G</td>
-                                    <td>R$ 100.00</td>
-                                </tr>
-
-                            </tbody>
-                           
-                            
-                        </table>
-
-
+        <div class="modal fade" id="modal-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <h5 class="modal-title">Cama</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-            </div>
-        </div>
-
-
-
-    </div>
-
-    <div class="modal fade" id= "modal-2">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    
-                    <h5 class="modal-title">Brinquedos</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                    <div class="modal-body">
-                        <h6>Confira os tamanhos e os preços</h6>
-
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1-unidade</td>
-                                    <td>R$ 10.00</td>
-                                </tr>
-                                <tr>
-                                    <td>5-unidade</td>
-                                    <td>R$ 50.00</td>
-                                </tr>
-                                <tr>
-                                    <td>10-unidade</td>
-                                    <td>R$ 100.00</td>
-                                </tr>
-
-                            </tbody>
-                           
-                            
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="modal fade" id= "modal-3">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    
-                    <h5 class="modal-title">Coleira</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
-                </div>
-                    <div class="modal-body">
-                        <h6>Confira os tamanhos e os preços</h6>
-
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1-unidade</td>
-                                    <td>R$ 25.00</td>
-                                </tr>
-                                <tr>
-                                    <td>5-unidade</td>
-                                    <td>R$ 100.00</td>
-                                </tr>
-                                <tr>
-                                    <td>10-unidade</td>
-                                    <td>R$ 150.00</td>
-                                </tr>
-
-                            </tbody>
-                           
-                            
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="modal fade" id= "modal-4">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    
-                    <h5 class="modal-title">Ração</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                    <div class="modal-body">
-
-                        <img src="imagens/racao-1.jpg" alt="cachorro" class="img-fluid">
-                        <p>Ração Seca Nutrição Essencial Carne para Cães Adultos Raças Médias e Grandes</p>
-                        <h6>Confira os tamanhos e os preços</h6>
-                       <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Pacote 10kg</td>
-                                    <td>R$ 25.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Pacote 20kg </td>
-                                    <td>R$ 60.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Pacote 50kg</td>
-                                    <td>R$ 120.00</td>
-                                </tr>
-
-                            </tbody>
-                           
-                            
-                        </table>
-                    </div>
-                    
-
-                    <div class="modal-body">
-
-                        <img src="imagens/racao-2.png" alt="cachorro" class="img-fluid">
-                        <p>Ração Seca Nutrição Essencial Carne para Cães Adultos Raças Médias e Grandes</p>
-                        <h6>Confira os tamanhos e os preços</h6>
-                       <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Pacote 10kg</td>
-                                    <td>R$ 30.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Pacote 20kg </td>
-                                    <td>R$ 60.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Pacote 50kg</td>
-                                    <td>R$ 120.00</td>
-                                </tr>
-
-                            </tbody>
-                           
-                            
-                        </table>
-                    </div>
-                  
-                    <div class="modal-body">
-
-                        <img src="imagens/racao-gato.jpg" alt="gato" class="img-fluid">
-                        <p>Ração especial com grãos escolhidos e ricos em vitaminas</p>
-                        <h6>Confira os tamanhos e os preços</h6>
-                       <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Pacote 10kg</td>
-                                    <td>R$ 20.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Pacote 20kg </td>
-                                    <td>R$ 50.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Pacote 50kg</td>
-                                    <td>R$ 100.00</td>
-                                </tr>
-
-                            </tbody>
-                           
-                            
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="modal fade" id= "modal-5">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    
-                    <h5 class="modal-title">Roupas</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                    <div class="modal-body">
-                       <img src="./imagens/roupa-2.jpg" alt="pet" class="img-fluid">
-                        <p>Jaqueta para o inverno </p>
-                       
-                        <h6>Confira os tamanhos e os preços</h6>
-                       <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>P</td>
-                                    <td>R$ 100.00</td>
-                                </tr>
-                                <tr>
-                                    <td>M</td>
-                                    <td>R$ 250.00</td>
-                                </tr>
-                                <tr>
-                                    <td>G</td>
-                                    <td>R$ 400.00</td>
-                                </tr>
-
-                            </tbody>            
-                           
-                            
-                        </table>
-                    </div>
-                   
                         <div class="modal-body">
-                           <img src="./imagens/roupa-3.png" alt="pet" class="img-fluid">
-                            <p>Blusa tecido confortável para as atividades do dia</p>
-                           
                             <h6>Confira os tamanhos e os preços</h6>
-                           <table class="table table-hover table-striped">
+
+                            <table class="table table-hover table-striped">
                                 <thead>
                                     <tr>
                                         <th>Tamanho</th>
                                         <th>Valor</th>
                                     </tr>
-    
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>P</td>
+                                        <td>R$ 50.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>M</td>
+                                        <td>R$ 80.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>G</td>
+                                        <td>R$ 100.00</td>
+                                    </tr>
+
+                                </tbody>
+                            
+                                
+                            </table>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="modal fade" id= "modal-2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <h5 class="modal-title">Brinquedos</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body">
+                            <h6>Confira os tamanhos e os preços</h6>
+
+                            <table class="table table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Valor</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1-unidade</td>
+                                        <td>R$ 10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5-unidade</td>
+                                        <td>R$ 50.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10-unidade</td>
+                                        <td>R$ 100.00</td>
+                                    </tr>
+
+                                </tbody>
+                            
+                                
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="modal fade" id= "modal-3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <h5 class="modal-title">Coleira</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                        <div class="modal-body">
+                            <h6>Confira os tamanhos e os preços</h6>
+
+                            <table class="table table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Valor</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1-unidade</td>
+                                        <td>R$ 25.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5-unidade</td>
+                                        <td>R$ 100.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10-unidade</td>
+                                        <td>R$ 150.00</td>
+                                    </tr>
+
+                                </tbody>
+                            
+                                
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="modal fade" id= "modal-4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <h5 class="modal-title">Ração</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body">
+
+                            <img src="imagens/racao-1.jpg" alt="cachorro" class="img-fluid">
+                            <p>Ração Seca Nutrição Essencial Carne para Cães Adultos Raças Médias e Grandes</p>
+                            <h6>Confira os tamanhos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Valor</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Pacote 10kg</td>
+                                        <td>R$ 25.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pacote 20kg </td>
+                                        <td>R$ 60.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pacote 50kg</td>
+                                        <td>R$ 120.00</td>
+                                    </tr>
+
+                                </tbody>
+                            
+                                
+                            </table>
+                        </div>
+                        
+
+                        <div class="modal-body">
+
+                            <img src="imagens/racao-2.png" alt="cachorro" class="img-fluid">
+                            <p>Ração Seca Nutrição Essencial Carne para Cães Adultos Raças Médias e Grandes</p>
+                            <h6>Confira os tamanhos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Valor</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Pacote 10kg</td>
+                                        <td>R$ 30.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pacote 20kg </td>
+                                        <td>R$ 60.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pacote 50kg</td>
+                                        <td>R$ 120.00</td>
+                                    </tr>
+
+                                </tbody>
+                            
+                                
+                            </table>
+                        </div>
+                    
+                        <div class="modal-body">
+
+                            <img src="imagens/racao-gato.jpg" alt="gato" class="img-fluid">
+                            <p>Ração especial com grãos escolhidos e ricos em vitaminas</p>
+                            <h6>Confira os tamanhos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Valor</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Pacote 10kg</td>
+                                        <td>R$ 20.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pacote 20kg </td>
+                                        <td>R$ 50.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pacote 50kg</td>
+                                        <td>R$ 100.00</td>
+                                    </tr>
+
+                                </tbody>
+                            
+                                
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="modal fade" id= "modal-5">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <h5 class="modal-title">Roupas</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body">
+                        <img src="./imagens/roupa-2.jpg" alt="pet" class="img-fluid">
+                            <p>Jaqueta para o inverno </p>
+                        
+                            <h6>Confira os tamanhos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Valor</th>
+                                    </tr>
+
                                 </thead>
                                 <tbody>
                                     <tr>
@@ -565,110 +535,143 @@
                                     </tr>
                                     <tr>
                                         <td>M</td>
-                                        <td>R$ 180.00</td>
+                                        <td>R$ 250.00</td>
                                     </tr>
                                     <tr>
                                         <td>G</td>
-                                        <td>R$ 250.00</td>
+                                        <td>R$ 400.00</td>
                                     </tr>
-    
-                                </tbody>
-                               
+
+                                </tbody>            
+                            
                                 
                             </table>
                         </div>
-                        
-                        <div class="modal-body">
-                            <img src="./imagens/roupas-4.jpg" alt="pet" class="img-fluid">
-                             <p>Blusa para raças pequenas </p>
-                            
-                             <h6>Confira os tamanhos e os preços</h6>
-                            <table class="table table-hover table-striped">
-                                 <thead>
-                                     <tr>
-                                         <th>Tamanho</th>
-                                         <th>Valor</th>
-                                     </tr>
-     
-                                 </thead>
-                                 <tbody>
-                                     <tr>
-                                         <td>P</td>
-                                         <td>R$ 100.00</td>
-                                     </tr>
-                                     <tr>
-                                         <td>M</td>
-                                         <td>R$ 160.00</td>
-                                     </tr>
-                                     <tr>
-                                         <td>G</td>
-                                         <td>R$ 180.00</td>
-                                     </tr>
-     
-                                 </tbody>
-                                
-                                 
-                             </table>
-                         </div>
-                         <div class="modal-footer">
-                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                         </div>
-
-
-             </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="modal fade" id= "modal-6">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
                     
-                    <h5 class="modal-title">Shampoo Kit</h5>
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                    <div class="modal-body">
-                        <h6>Confira os tamanhos e os preços</h6>
-
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1-Kit (3-unidades)</td>
-                                    <td>R$ 55.00</td>
-                                </tr>
-                                <tr>
-                                    <td>2-Kit (6-unidades)</td>
-                                    <td>R$ 100.00</td>
-                                </tr>
-                                <tr>
-                                    <td>5-Kit (15-unidades)</td>
-                                    <td>R$ 250.00</td>
-                                </tr>
-
-                            </tbody>
-                           
+                            <div class="modal-body">
+                            <img src="./imagens/roupa-3.png" alt="pet" class="img-fluid">
+                                <p>Blusa tecido confortável para as atividades do dia</p>
                             
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                                <h6>Confira os tamanhos e os preços</h6>
+                            <table class="table table-hover table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Tamanho</th>
+                                            <th>Valor</th>
+                                        </tr>
+        
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>P</td>
+                                            <td>R$ 100.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>M</td>
+                                            <td>R$ 180.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>G</td>
+                                            <td>R$ 250.00</td>
+                                        </tr>
+        
+                                    </tbody>
+                                
+                                    
+                                </table>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <img src="./imagens/roupas-4.jpg" alt="pet" class="img-fluid">
+                                <p>Blusa para raças pequenas </p>
+                                
+                                <h6>Confira os tamanhos e os preços</h6>
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Tamanho</th>
+                                            <th>Valor</th>
+                                        </tr>
+        
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>P</td>
+                                            <td>R$ 100.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>M</td>
+                                            <td>R$ 160.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>G</td>
+                                            <td>R$ 180.00</td>
+                                        </tr>
+        
+                                    </tbody>
+                                    
+                                    
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
 
+
+                </div>
+                </div>
             </div>
+
         </div>
 
-    </div>
 
+        <div class="modal fade" id= "modal-6">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <h5 class="modal-title">Shampoo Kit</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body">
+                            <h6>Confira os tamanhos e os preços</h6>
+
+                            <table class="table table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Valor</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1-Kit (3-unidades)</td>
+                                        <td>R$ 55.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2-Kit (6-unidades)</td>
+                                        <td>R$ 100.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5-Kit (15-unidades)</td>
+                                        <td>R$ 250.00</td>
+                                    </tr>
+
+                                </tbody>
+                            
+                                
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+    
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/botaomenu.js"></script>
