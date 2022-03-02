@@ -8,3 +8,12 @@ textarea.form-control {
         
     }  
 }
+
+@media (max-width: 350px) {
+    #check {
+        font-size: 0.8rem;
+    }
+    #form_2 {
+        padding-left: 0;
+    }
+}
